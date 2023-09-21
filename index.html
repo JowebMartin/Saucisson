@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Le Saucisson de Campagne</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <div class="hero">
+            <h1>Le Saucisson de Campagne</h1>
+            <p>Découvrez la saveur authentique du saucisson.</p>
+            <a href="#produits" class="cta-button">Voir nos produits</a>
+        </div>
+    </section>
+    
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <img src="saucisson1.jpg" alt="Saucisson Traditionnel">
+            <h3>Saucisson Traditionnel</h3>
+            <p>Un saucisson de qualité, préparé avec amour.</p>
+        </div>
+        <div class="produit">
+            <img src="saucisson2.jpg" alt="Saucisson aux Herbes">
+            <h3>Saucisson aux Herbes</h3>
+            <p>Un mélange savoureux d'herbes et d'épices.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Le Saucisson de Campagne</p>
+    </footer>
+</body>
+</html>

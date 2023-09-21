@@ -1,0 +1,113 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e9e1; /* Couleur de fond de la page */
+    color: #654321; /* Couleur du texte principale */
+}
+
+header {
+    background-color: #654321; /* Couleur de fond de l'en-tête */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section d'accueil */
+.hero {
+    background-image: url('campagne.jpg'); /* Image de fond de l'en-tête */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff; /* Couleur du texte sur l'image de fond */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #f29645; /* Couleur du bouton d'appel à l'action */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Section des produits */
+#produits {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.produit {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.produit img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Section de contact */
+#contact {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #f29645; /* Couleur du bouton d'envoi */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #654321; /* Couleur de fond du pied de page */
+    color: white;
+}
